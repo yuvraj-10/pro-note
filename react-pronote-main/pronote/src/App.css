@@ -1,0 +1,48 @@
+body{
+  background-color:rgb(194, 172, 255);
+  color: white;
+}
+
+.input{
+  width: 50%;
+  height: 50vh;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.input-text{
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 10px 10px 10px 0px #6200ff;
+  
+}
+
+.hello{
+  color:rgb(98, 0, 255);
+  padding-left: 150px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.output{
+  width: 50%;
+  margin-right: 120px;
+  margin-top: 50px;
+}
+
+.output-text{
+  border-radius: 10px;
+  color:white;
+  background-color: rgb(24, 22, 22);
+  width: 100%;
+  height: 50vh;
+  box-shadow: 10px 10px 10px 0px #6200ff;
+  /* overflow-y: scroll; */
+}
+
+.container{
+  display: flex;
+  flex-direction:row;
+  column-gap: 10%;
+}
